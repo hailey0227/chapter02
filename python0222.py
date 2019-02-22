@@ -17,4 +17,36 @@ print(0o177)
 
 print("16진수 출력")
 print(0x1234)
-print(-0xABC)
+print(-0x1234)
+
+
+print("복소수 출력")
+a = 1 + 2j
+print(a)
+b = 3 - 4j
+print(b)
+
+a = 1 + 2j
+print("실수 부분 출력 : %s" % a.real)
+print("허수 부분 출력 : %s" % a.imag)
+print("켤레복소수 출력 : %s" % a.conjugate())
+print("절대값 출력 : %s" % abs(a))
+
+
+# 숫자형을 활용하기 위한 연산자
+# 기본 4칙연산
+# +, -, *, /, **(제곱 연산), %(나머지 연산)
+
+a = 3
+b = 4
+c = a + b
+print("a + b = %s" %c)
+c = a - b
+print("a - b = %s" %c)
+c = a * b
+print("a * b = %s" %c)
+c = a / b
+print("a / b = %s" %c)
+c = a % c
+d = "%" 
+print("a %s b = %s" %d, %c)
