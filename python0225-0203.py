@@ -185,4 +185,3 @@ a = a.extend([4, 5, 6])
 print("extend로 확장된 리스트 : {0}".format(a))
 a = a + [7, 8, 9]
 print("+ 연산자로 리스트를 추가한 리스트 : {0}".format(a))
-
